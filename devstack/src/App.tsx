@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-
 import Navbar from './components/Navbar';
 import Banner from './components/Banner';
 import TechGrid from './components/TechGrid';
@@ -59,7 +58,6 @@ function App() {
     setSelectedStack([]);
     toast.error('Cleared all items from stack!', { position: 'bottom-right' });
   };
-
   return (
     <div className="min-h-screen bg-[white] text-slate-100 flex flex-col font-sans">
       <Navbar />
@@ -83,7 +81,6 @@ function App() {
           </div>
         </div>
       </main>
-
       <Footer />
       <ToastContainer aria-label="Notifications" autoClose={2500} />
     </div>
