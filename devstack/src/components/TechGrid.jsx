@@ -9,7 +9,6 @@ const TechGrid = ({ technologies, onAddToStack, selectedStack }) => {
           <p className="mt-2 text-sm text-slate-300">Pick one technology per category to build your ideal stack.</p>
         </div>
       </div>
-
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
         {technologies.map((tech) => {
           const isAdded = selectedStack.some((item) => item.id === tech.id);

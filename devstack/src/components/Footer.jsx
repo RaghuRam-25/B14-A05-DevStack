@@ -39,7 +39,6 @@ const Footer = () => {
             <li><a href="#terms" className="hover:underline">Terms of Service</a></li>
           </ul>
         </div>
-
       </div>
       <div className="mx-auto px-4 pt-6 border-t border-base-900 text-gray-500 flex justify-between text-sm">
         <span >© 2026 Dev Stack. All rights reserved.</span>

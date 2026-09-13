@@ -40,7 +40,6 @@ const StackSidebar = ({ selectedStack, onRemove, onRemoveAll }) => {
               </button>
             </div>
           ))}
-
           <button
             onClick={onRemoveAll}
             className="mt-4 w-full rounded-xl border border-red-300 bg-red-50 px-4 py-3 text-base font-bold text-red-500 transition hover:bg-red-100"
