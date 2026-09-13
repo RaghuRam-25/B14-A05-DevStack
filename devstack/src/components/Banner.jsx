@@ -28,7 +28,13 @@ const Banner = () => {
               </a>
             </div>
           </div>
-          
+          <div className="flex justify-center lg:justify-end">
+            <img
+              src={bannerImage}
+              alt="Banner"
+              className="w-full max-w-[620px] rounded-[2rem] object-cover"
+            />
+          </div>
         </div>
       </div>
     </section>
