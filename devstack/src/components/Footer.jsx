@@ -21,22 +21,22 @@ const Footer = () => {
           <ul className="space-y-2 text-sm text-gray-500">
             <li><a href="#home" className="hover:underline">Home</a></li>
             <li><a href="#tech" className="hover:underline">Technologies</a></li>
-            <li><a href="#projects" className="hover:underline">Projects</a></li>
+            <li><a>Projects</a></li>
           </ul>
         </div>
         <div>
           <span className="footer-title font-bold text-black block mb-3">Company</span>
           <ul className="space-y-2 text-sm text-gray-500">
-            <li><a href="#about" className="hover:underline">About</a></li>
-            <li><a href="#contact" className="hover:underline">Contact</a></li>
-            <li><a href="#careers" className="hover:underline">Careers</a></li>
+            <li><a>About</a></li>
+            <li><a>Contact</a></li>
+            <li><a>Careers</a></li>
           </ul>
         </div>
         <div>
           <span className="footer-title font-bold text-black block mb-3">Legal</span>
           <ul className="space-y-2 text-sm text-gray-500">
-            <li><a href="#privacy" className="hover:underline">Privacy Policy</a></li>
-            <li><a href="#terms" className="hover:underline">Terms of Service</a></li>
+            <li><a>Privacy Policy</a></li>
+            <li><a>Terms of Service</a></li>
           </ul>
         </div>
       </div>
