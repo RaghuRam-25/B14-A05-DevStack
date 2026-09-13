@@ -36,7 +36,7 @@ const StackSidebar = ({ selectedStack, onRemove, onRemoveAll }) => {
                 className="px-2 py-1 text-xl text-slate-500 transition hover:text-red-500"
                 aria-label={`Remove ${item.name}`}
               >
-                ✕
+                X
               </button>
             </div>
           ))}
